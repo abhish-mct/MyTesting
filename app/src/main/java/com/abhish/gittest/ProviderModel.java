@@ -5,6 +5,12 @@ public class ProviderModel {
     String providerId;
     String serviceType;
 
+    public ProviderModel(String name, String providerId, String serviceType) {
+        this.name = name;
+        this.providerId = providerId;
+        this.serviceType = serviceType;
+    }
+
     public String getName() {
         return name;
     }
